@@ -1,11 +1,18 @@
-
+import Quiz from "./components/Quiz";
 import Header from "./components/Header";
+
 
 
 function App() {
 
+
 return(
-    <Header />
+    <>
+        <Header />
+        <main>
+            <Quiz></Quiz>
+        </main>
+    </>
 )
 
 }
