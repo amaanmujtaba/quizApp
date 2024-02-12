@@ -1,6 +1,8 @@
 import { useState } from "react";
 import QUESTIONS from "../questions";
-import quizComplete from "../assets/quiz-complete.png"
+import Summary from "./Summary";
+
+
 function shuffleArray(array) {
     // Create a copy of the original array to avoid modifying the original
     const newArray = array.slice();
@@ -43,11 +45,8 @@ export default function Quiz(){
     }
 
     if(userAnswer.length === QUESTIONS.length){
-        return(
-            <div id="summary">
-                <img src = {quizComplete} alt ="trophy"></img>
-                <h2>COMPLETED</h2>
-            </div>
+        return (
+            <Summary userAnswer = {userAnswer} corretAnswers ={corretAnswers} questions = {shuffled}/>
         )
     }
 

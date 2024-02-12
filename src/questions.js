@@ -33,8 +33,8 @@ export default [
     id: 'q4',
     text: 'The only womens team to defeat the twinz?',
     answers: [
-      '2k.',
       'K2.',
+      '2k.',
       'Jhanaj/Tiff Ding.',
       'Towerful.',
     ],
@@ -43,8 +43,9 @@ export default [
     id: 'q5',
     text: 'Who was 2021 world champion?',
     answers: [
-      'Assistive touch.',
       'Double clutch.',
+      'Assistive touch.',
+      
       'Kingdom Come.',
       'Spotless.',
     ],
